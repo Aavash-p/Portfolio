@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #ccc ;
+    font-family: Arial;
+}
+
+.navbar ul{
+    list-style: none;
+    background: lightblue;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    text-align: right;
+    
+}
+.navbar li {
+    display: inline;
+    
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    max-width: 200px;
+    padding: 50px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: right;     
+}
+.navbar a:hover{
+ background: rebeccapurple;
+ max-width: auto;
+ padding: auto;
+ 
+}
+@media all {
+.navbar li {
+
+}
+}
+.me h1{
+    color:black;
+    margin-left: 0%;
+    
+}
